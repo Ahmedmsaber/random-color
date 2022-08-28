@@ -1,0 +1,35 @@
+.card{
+    /* width: 230px; */
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.color-card{
+    height: 160px;
+    width: 100%;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+.color-code{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #ddd;
+}
+.color-code button{
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(62, 62, 208);
+}

@@ -1,0 +1,85 @@
+.sidebar{
+    width: 10vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    background-color:  rgb(76, 76, 230) ;
+    color: white;
+    position: sticky;
+    left: 0;
+    top: 0;
+  }
+   .sidebar ul{
+    width: 100%;
+    margin-top: 40px;
+  }
+   .sidebar li {
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+  }
+   .sidebar a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem;
+    color: white;
+    padding: 5px 10px 5px 5px;
+    transition: 0.3s;
+  }
+  .sidebar i{
+    padding: 4px;
+  }
+   .sidebar a:hover{
+    background-color: white;
+    color: black;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    transition: 0.3s;
+  }
+  .sidebar .active{
+    background-color: white;
+    color: black;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    transition: 0.3s;
+  }
+
+
+  @media screen and (max-device-width: 540px)
+{
+    .sidebar p {
+        visibility: hidden;
+    }
+    .sidebar i{
+        
+        font-size: 1.4rem;
+    }
+ 
+}
+@media screen and (min-device-width: 541px)
+and (max-device-width: 1085px){
+    .sidebar p {
+        visibility: hidden;
+    }
+    .sidebar i{
+        margin-left: 10px;
+        font-size: 1.5rem;
+    }
+ 
+}
+@media screen and (min-device-width: 1086px)
+{
+  .sidebar p{
+    visibility: visible;
+  }
+}
